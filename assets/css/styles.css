@@ -1,0 +1,19 @@
+/* styles.css */
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #012842; /* Blue background */
+    color: rgb(100, 99, 99); /* White text color */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#backToTopBtn:hover {
+    background-color: #e6e6e691; /* Darker blue on hover */
+}
