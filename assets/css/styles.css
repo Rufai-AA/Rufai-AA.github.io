@@ -9,13 +9,13 @@
     font-size: 16px;
     padding: 10px 20px;
     background-color: #9bb9ce; /* Blue background */
-    color: rgb(184, 179, 179); /* White text color */
+    color: rgb(224, 207, 207); /* White text color */
     border: none; /* Remove borders */
     border-radius: 5px; /* Rounded corners */
 }
 
 #backToTopBtn:hover {
-    background-color: #e6e6e691; /* Darker blue on hover */
+    background-color: #ddd4d4de; /* Darker blue on hover */
 }
 
 .iframe-container {
@@ -25,4 +25,16 @@
     height: 100vh; /* Adjust as needed */
     margin: 0 auto; /* Centers horizontally */
     max-width: 100%; /* Make sure it doesn't exceed the container width */
+}
+
+.certificate-link a {
+    background-image: url('path/to/your/image.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Adjust to fit your design */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: inline-block;
+    color: #fff; /* Text color for the link */
+    text-decoration: none; /* Remove underline for the link */
+    font-weight: bold; /* Adjust font styles as needed */
 }
