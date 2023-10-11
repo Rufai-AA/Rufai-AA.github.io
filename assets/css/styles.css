@@ -8,12 +8,21 @@
     z-index: 99;
     font-size: 16px;
     padding: 10px 20px;
-    background-color: #012842; /* Blue background */
-    color: rgb(100, 99, 99); /* White text color */
+    background-color: #9bb9ce; /* Blue background */
+    color: rgb(184, 179, 179); /* White text color */
     border: none; /* Remove borders */
     border-radius: 5px; /* Rounded corners */
 }
 
 #backToTopBtn:hover {
     background-color: #e6e6e691; /* Darker blue on hover */
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    margin: 0 auto; /* Centers horizontally */
+    max-width: 100%; /* Make sure it doesn't exceed the container width */
 }
